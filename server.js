@@ -3,7 +3,6 @@ require("dotenv").config({ path: "./config/.env" })
 
 const express = require("express")
 const app = express()
-const mongoose = require("mongoose")
 const passport = require("passport")
 const session = require("express-session")
 const MongoStore = require("connect-mongo")
@@ -60,5 +59,5 @@ app.use("/post", postRoutes)
 // Run Server
 const PORT = process.env.PORT || 8888
 app.listen(PORT, () => {
-  console.log(`Server is running on PORT: ${process.env.PORT}`)
+  console.log(`Server is running on PORT: ${PORT}`)
 })

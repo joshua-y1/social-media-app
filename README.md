@@ -63,7 +63,7 @@ npm install
 Create a `.env` file in the `config` folder with:
 
 ```
-PORT=2121
+PORT=8888
 DB_STRING=your_mongodb_connection_string
 CLOUD_NAME=your_cloudinary_cloud_name
 API_KEY=your_cloudinary_api_key
@@ -78,7 +78,7 @@ API_SECRET=your_cloudinary_api_secret
 npm start
 ```
 
-Then open `http://localhost:2121`.
+Then open `http://localhost:8888`.
 
 ## Credits
 
