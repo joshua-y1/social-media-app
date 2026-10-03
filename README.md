@@ -2,7 +2,7 @@
 
 A full-stack social media app where users can sign up, share photo posts, like posts, and manage their own profile. Built with Node.js, Express, and MongoDB using the MVC pattern.
 
-**Live demo:** https://social-media-app-template.onrender.com
+**Live demo:** https://social-media-app-e7by.onrender.com
 
 ---
 
