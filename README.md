@@ -45,8 +45,13 @@ The app follows the **Model-View-Controller** pattern:
 ## What I Added
 
 <!-- List your own changes to the template here. This is the part that makes it yours. -->
-- _Feature or improvement #1_
-- _Feature or improvement #2_
+## What I Added
+
+- Migrated the template from Mongoose 5 / Express 4 to Mongoose 8 / Express 5, converting callback-based code to async/await
+- Added server-side authorization so users can only delete their own posts
+- Protected all post routes with authentication middleware
+- Fixed a logout race condition and prevented email enumeration through login error messages
+- Added upload validation (allowed file types, case-insensitive extensions, 5 MB size limit)
 
 ## Run It Locally
 
